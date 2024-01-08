@@ -1,0 +1,50 @@
+# Ignorar archivos generados por el sistema operativo
+Thumbs.db
+.DS_Store
+
+# Ignorar archivos de respaldo y temporales
+*~
+*.swp
+
+# Ignorar archivos de configuración específicos del editor
+.vscode/
+.idea/
+
+# Ignorar directorios y archivos de dependencias
+node_modules/
+bower_components/
+
+# Ignorar archivos de compilación y resultados
+dist/
+build/
+
+# Ignorar archivos de entorno y configuración local
+.env
+.env.local
+.env.*.local
+
+# Ignorar archivos de registro y salida de errores
+logs/
+*.log
+
+# Ignorar archivos de caché
+.cache/
+
+# Ignorar archivos de configuración personal
+*.config.js
+
+# Ignorar archivos de imágenes generadas
+generated_images/
+
+# Ignorar archivos de respaldo de bases de datos
+*.db
+*.sqlite
+
+# Ignorar archivos de compilación de SASS y LESS
+*.css.map
+*.scssc
+*.lessc
+
+# Ignorar archivos de configuración de proyectos
+.project
+.settings/
